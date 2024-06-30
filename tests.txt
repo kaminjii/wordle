@@ -1,0 +1,60 @@
+x canary test
+
+x tally for target FAVOR guess FAVOR
+
+x tally for target FAVOR guess TESTS
+x tally for target FAVOR guess RAPID
+x tally for target FAVOR guess MAYOR
+
+x tally for target FAVOR guess FOR
+x tally for target FAVOR guess FERVER
+x tally for target FAVOR guess RIVER
+x tally for target FAVOR guess AMAST
+
+x tally for target SKILL guess SKILL
+x tally for target SKILL guess SWIRL
+x tally for target SKILL guess CIVIL
+x tally for target SKILL guess SHIMS
+x tally for target SKILL guess SILLY
+x tally for target SKILL guess SLICE
+
+x tally for target WHAT guess WHAT
+
+x play with attempt 0 target FAVOR and guess FAVOR
+
+x play deal with invalid guess on first attempt
+x play first attempt with non-winning guess
+
+x play second attempt with winning guess
+x play second attempt with non-winning guess
+x play third attempt with winning guess
+x play third attempt with non-winning guess
+x play fourth attempt with winning guess
+x play fourth attempt with non-winning guess
+x play fifth attempt with winning guess
+x play fifth attempt with non-winning guess
+x play sixth attempt with winning guess
+x play sixth attempt with non-winning guess
+x play seventh attempt with winning guess
+x play eighth attempt with non-winning guess
+
+x play throws an exception for attempt 1, target FAVOR and guess FEVER where FEVER is considered incorrect spelling
+x play returns proper response for attempt 1, target FAVOR and guess FEVER where FEVER is considered correct spelling
+x play throws an exception for attempt 1, target FAVOR and guess FEVER where checking for spelling results in an exception
+
+x getResponse returns 'true' for input FAVOR as respond from calling the webservice
+x getResponse returns 'false' for input FAVRO as respond from calling the webservice
+
+x parse returns true for argument 'true'
+x parse returns false for argument 'false'
+x parse raises ValueError when it does not receive a 'true' or 'false'
+
+x isSpellingCorrect returns true if getResponse returns true and uses parse
+x isSpellingCorrect returns false if getResponse returns false and uses parse
+x isSpellingCorrect throws Network Error if getResponse throws that exception
+
+x getResponse returns list of words from calling webservice
+
+x getRandomWord returns one randomly chosen word
+
+x getRandomWord returns two different words on two different calls
